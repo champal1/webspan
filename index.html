@@ -7,54 +7,67 @@
     <link href="style.css" rel="stylesheet" type="text/css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   </head>
+
   <body>
-    <h1>Spanish dictonary</h1>
-    <p>Hello welcome to spanish dictonary, a site where you can learn about the spanish language! Lets learn together</p>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">Looking for something?</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Must know words</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Popular Phrases</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Translation</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Vocabulary
-          </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <li><a class="dropdown-item" href="#">Letters</a></li>
-            <li><a class="dropdown-item" href="#">Words</a></li>
-            <li><a class="dropdown-item" href="#">Pronounce</a></li>
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">SpanishLang</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Translate</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Phrases
+              </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Vocabulary
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Nouns</a></li>
+                <li><a class="dropdown-item" href="#">Alphabet</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Verbs</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled">Disabled</a>
+            </li>
           </ul>
-        </li>
-      </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+      .container {
+        position: relative;
+        text-align: center;
+        color: rgb(253, 9, 9);
+        font-size: 40px;
+      }
+      .centered {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    </style>
+    <h2>SpanishLang</h2>
+    <p>Hola, bienvenido a SpanishLang!</p>
+    
+    <div class="container">
+      <img src="https://cdn.britannica.com/05/95005-050-6B2E7557/Zocalo-background-Mexico-City-National-Palace-Metropolitan.jpg" alt="Snow" style="width:100%;">
+      <div class="centered">Learn one of the most popular language today!</div>
     </div>
-  </div>
-</nav>
-    <h1 style="color:red; text-align:center">Spanish Vocabuary</h1>
-   <div class="container">
-  <div class="row">
-    <div class="col bg-primary">
-      Letter
-    </div>
-    <div class="col bg-secondary">
-      Pronounce
-    </div>
-    <div class="col bg-success">
-      Example
-    </div>
-  </div>
-</div>
 
     <script src="script.js"></script>
   </body>
