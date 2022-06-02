@@ -22,7 +22,7 @@
     width: 100%;
     min-height: 100vh;
     padding: 5%;
-    background-image: linear-gradient(rgba(0,8,51,0.9), rgba(0,8,51,0.9)), url("https://www.fodors.com/wp-content/uploads/2021/05/UltimateMexicoCity__HERO_shutterstock_1058054480.jpg"));
+    background-image: linear-gradient(rgba(0,8,51,0.9), rgba(0,8,51,0.9)), background-image("https://www.fodors.com/wp-content/uploads/2021/05/UltimateMexicoCity__HERO_shutterstock_1058054480.jpg");
     background-position: center;
     background-size: cover;
     display: flex;
